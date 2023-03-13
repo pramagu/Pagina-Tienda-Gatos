@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+#hotelimg > img {
+    max-width: 100px;
+}
+
+#navbar,#plan1,#plan2{
+    background-color: rgb(84, 108, 218);
+}
+
+#plan3 {
+    background-color: lightslategrey;
+}
+
+#paseo {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+}
+#user{
+    visibility: hidden;
+}
+
+#imagenSegundoModal{
+    width: 100%;
+    height: auto;
+}
+
+li>img {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+}
+
+#carouselExampleControls img {
+    width: 100%;
+    max-height: 800px;
+}
+
+div [class*="text-center s"] {
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div [class*="bg-light text-center"] {
+    min-height: 200px;
+}
+
+
+#habitaciones{
+    background-color: rgba(94, 90, 90, 0.116);
+}
+
+* [class*="list-group-item lorem"]{
+    background-color: rgb(84, 108, 218);
+}
+
+* [class*="d-block w-100"]{
+    max-height: 340px;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --mdb-gutter-x: 0;
+    --mdb-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--mdb-gutter-x)*0.5);
+    padding-left: calc(var(--mdb-gutter-x)*0.5);
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+#thehero {
+width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(restaurante.webp);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.the-inner {
+    background-color: rgba(256,256,256,0.8);
+    width: 100vw;
+    padding: 1rem;
+}
+
+.the-inner h1{
+color: #000000;
+font-family: 'Libre Baskerville', serif;
+font-style: italic;
+font-weight: 400;
+line-height: 1.4;
+font-size: 2.1rem;
+
+}
+
+.the-inner p {
+color: #606061;
+text-align: left;
+font-size: 1.1rem;  
+}
+
+
+
+.the-inner a {
+color: #000000;
+}
